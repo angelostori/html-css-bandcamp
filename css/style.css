@@ -58,6 +58,15 @@ input.search {
 
 .filter_banner {
     background-color: var(--bc-secondary-color);
+
+    input{
+        background-color: var(--bc-secondary-light);
+        border-style: none;
+        width: 300px;
+        padding: 5px;
+        margin: 1rem;
+        border-radius: 20px;
+    }
 }
 
 /*--MAIN--*/
