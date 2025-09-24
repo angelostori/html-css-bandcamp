@@ -129,7 +129,7 @@ aside {
         gap: 1rem;
         align-items: center;
 
-        i {
+        .icon_wrapper {
 
             color: var(--bc-primary-color);
 
@@ -147,4 +147,34 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.light_btn {
+    background-color: var(--bc-lighter);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 1rem;
+
+    a {
+        color: var(--bc-primary-color);
+        text-decoration: none;
+        
+    }
+}
+
+.dark_btn {
+    border: 1px solid;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 1rem;
+
+    i {
+        color: var(--bc-lighter);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--bc-lighter);
+    }
 }
