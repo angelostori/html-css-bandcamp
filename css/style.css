@@ -6,6 +6,8 @@
 
 body {
     overflow: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bc-secondary-light) var(--bc-primary-color);
 }
 
 .wrapper {
@@ -159,7 +161,7 @@ aside {
     a {
         color: var(--bc-primary-color);
         text-decoration: none;
-        
+
     }
 }
 
