@@ -5,7 +5,6 @@
 }
 
 body {
-    overflow: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--bc-secondary-light) var(--bc-primary-color);
 }
@@ -32,10 +31,12 @@ body {
 
 .top_left {
     display: flex;
+}
 
-    img {
-        margin-right: 15px;
-    }
+.top_left img {
+    margin-right: 15px;
+    width: 140px;
+    height: auto;
 }
 
 input.search {
@@ -50,7 +51,7 @@ input.search {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
 
     a {
         color: var(--bc-lighter);
@@ -107,7 +108,7 @@ input.search {
 aside {
     width: 30%;
     padding: 1rem;
-    border: 1px solid var(--bc-secondary-light);
+    border-left: 1px solid var(--bc-secondary-light);
 
     img {
         width: 100%;
