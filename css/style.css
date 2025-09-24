@@ -74,12 +74,19 @@ input.search {
 .bottom {
     height: calc(100% - 112px);
     color: var(--bc-lighter);
+    margin-top: 11px;
+    padding-left: 1rem;
 }
 
 .bottom .left_grid {
     width: 70%;
     height: 100%;
     overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card{
+        width: calc(100% / 4);
+    }
 }
 
-.debug {}
