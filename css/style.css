@@ -11,6 +11,7 @@ body {
 .wrapper {
     height: 100vh;
     background-color: var(--bc-primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root {
@@ -27,10 +28,10 @@ body {
     height: 112px;
 }
 
-.top_left{
+.top_left {
     display: flex;
 
-    img{
+    img {
         margin-right: 15px;
     }
 }
@@ -59,7 +60,7 @@ input.search {
 .filter_banner {
     background-color: var(--bc-secondary-color);
 
-    input{
+    input {
         background-color: var(--bc-secondary-light);
         border-style: none;
         width: 300px;
@@ -72,6 +73,7 @@ input.search {
 /*--MAIN--*/
 
 .bottom {
+    display: flex;
     height: calc(100% - 112px);
     color: var(--bc-lighter);
     margin-top: 11px;
@@ -84,9 +86,32 @@ input.search {
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+}
 
-    .card{
-        width: calc(100% / 4);
+.card {
+    width: calc((100% / 4) - 1rem);
+
+    *{
+        margin: 1rem 0;
+    }
+
+    img{
+        width: 100%;
+        border: 1px solid var(--bc-secondary-light);
     }
 }
 
+aside {
+    width: 30%;
+    padding: 1rem;
+    border: 1px solid var(--bc-secondary-light);
+
+    img {
+        width: 100%;
+    }
+}
+
+.left_grid .genre{
+    color: var(--bc-secondary-light);
+}
