@@ -51,6 +51,20 @@ body {
     height: auto;
 }
 
+#wrap_right {
+    display: flex;
+}
+
+.sign_log {
+    padding: 20px;
+    display: block;
+}
+
+.sign_log:hover {
+        background-color: var(--bc-secondary-light);
+        text-decoration: underline;
+    }
+
 input.search {
     background-color: var(--bc-secondary-light);
     border-style: none;
@@ -227,7 +241,7 @@ div.play_bar {
     justify-content: space-between;
 
     .subtitle {
-        color:var(--bc-lighter);
+        color: var(--bc-lighter);
     }
 }
 
