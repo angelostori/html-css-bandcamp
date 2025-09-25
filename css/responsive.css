@@ -3,4 +3,45 @@
         width: calc((100% / 2) - 1rem);
     }
 
+    .search_banner a {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    input.search {
+        width: 220px;
+    }
+
+    .bottom .left_grid {
+        width: 65%;
+    }
+
+    aside{
+        width: 35%;
+    }
+
+    .title,
+    .artist {
+        font-size: 12px;
+    }
+
+    .light_btn {
+        padding: 12px;
+
+        a {
+            font-size: 14px;
+        }
+    }
+
+    .dark_btn {
+        padding: 12px;
+
+        a {
+            font-size: 14px;
+        }
+    }
+
+    #media_info p {
+        font-size: 12px;
+    }
 }
