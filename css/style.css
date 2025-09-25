@@ -186,6 +186,7 @@ aside {
     img {
         width: 100%;
         margin-bottom: 35px;
+        cursor: pointer;
     }
 }
 
@@ -224,6 +225,12 @@ div.play_bar {
     align-items: center;
     justify-content: center;
     color: var(--bc-primary-color);
+    cursor: pointer;
+}
+
+.icon_wrapper:hover {
+    border: 1px solid var(--bc-secondary-lighter);
+    background-color: var(--bc-secondary-lighter);
 }
 
 .light_btn {
@@ -232,11 +239,20 @@ div.play_bar {
     justify-content: center;
     border-radius: 5px;
     padding: 1rem;
+    cursor: pointer;
 
     a {
         color: var(--bc-primary-color);
         text-decoration: none;
 
+    }
+}
+
+.light_btn:hover {
+    background-color: var(--bc-secondary-lighter);
+
+    a {
+        text-decoration: underline;
     }
 }
 
@@ -246,6 +262,7 @@ div.play_bar {
     justify-content: center;
     border-radius: 5px;
     padding: 1rem;
+    cursor: pointer;
 
     i {
         color: var(--bc-lighter);
@@ -254,6 +271,19 @@ div.play_bar {
     a {
         text-decoration: none;
         color: var(--bc-lighter);
+    }
+}
+
+.dark_btn:hover{
+    color: var(--bc-secondary-lighter);
+
+    i {
+        color: var(--bc-secondary-light);
+    }
+
+    a {
+        text-decoration:underline;
+        color: var(--bc-secondary-light);
     }
 }
 
