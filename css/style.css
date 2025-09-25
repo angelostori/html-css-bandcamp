@@ -123,8 +123,8 @@ input.search {
     }
 }
 
-.card .title,
-.card .artist {
+.title,
+.artist {
     display: block;
     width: 100%;
     white-space: nowrap;
@@ -139,6 +139,7 @@ aside {
 
     img {
         width: 100%;
+        margin-bottom: 35px;
     }
 }
 
@@ -149,27 +150,25 @@ aside {
 .right_bar {
 
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-direction: column;
     height: 100%;
     overflow-y: auto;
+}
 
-    div {
+.info {
+    width: 75%;
+}
+
+div.play_bar {
         display: flex;
         gap: 1rem;
         align-items: center;
-
-        .icon_wrapper {
-
-            color: var(--bc-primary-color);
-
-        }
     }
-}
 
 .icon_wrapper {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
     border: 1px solid var(--bc-lighter);
     padding: 1rem;
     border-radius: 50%;
@@ -177,6 +176,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--bc-primary-color);
 }
 
 .light_btn {
@@ -207,4 +207,11 @@ aside {
         text-decoration: none;
         color: var(--bc-lighter);
     }
+}
+
+#btns {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /*è brutto da vedere questo d-flex ma lo faccio per il gap*/
 }
