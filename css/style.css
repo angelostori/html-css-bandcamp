@@ -5,6 +5,7 @@
 }
 
 body {
+    overflow: hidden;
     scrollbar-width: thin;
     scrollbar-color: var(--bc-secondary-light) var(--bc-primary-color);
 }
