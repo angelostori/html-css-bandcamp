@@ -40,9 +40,8 @@ body {
     i {
         color: var(--bc-secondary-lighter);
         position: absolute;
-        left: 160px;
-        top: 12px;
-
+        left: 175px;
+        top: 15px;
     }
 }
 
