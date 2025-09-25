@@ -56,14 +56,14 @@ body {
 }
 
 .sign_log {
-    padding: 20px;
+    padding: 12px;
     display: block;
 }
 
 .sign_log:hover {
-        background-color: var(--bc-secondary-light);
-        text-decoration: underline;
-    }
+    background-color: var(--bc-secondary-light);
+    text-decoration: underline;
+}
 
 input.search {
     background-color: var(--bc-secondary-light);
@@ -130,12 +130,41 @@ input.search {
 
 .card {
     width: calc((100% / 4) - 1rem);
-
-
+    position: relative;
 
     img {
         width: 100%;
         border: 1px solid var(--bc-secondary-light);
+    }
+}
+
+.dis_appear{
+    display: none;
+}
+
+.play_btn {
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid var(--bc-secondary-color);
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--bc-secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bc-lighter);
+    position: absolute;
+    bottom: 67px;
+    left: 9px;
+
+    i {
+        font-size: 14px;
+    }
+}
+
+.card:hover {
+    .dis_appear {
+        display: block;
     }
 }
 
