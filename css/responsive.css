@@ -1,4 +1,6 @@
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 744px) {
     .card {
         width: calc((100% / 2) - 1rem);
     }
@@ -16,7 +18,7 @@
         width: 65%;
     }
 
-    aside{
+    aside {
         width: 35%;
     }
 
@@ -43,5 +45,37 @@
 
     #media_info p {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right_bar {
+        display: none;
+    }
+
+    .bottom .left_grid {
+        width: 100%;
+    }
+
+    .filter_banner {
+        input {
+            width: 95%;
+            margin: 10px 10px 10px 15px;
+        }
+
+        i {
+            position: absolute;
+            left: 23px;
+            top: 17px;
+        }
+    }
+
+    input.search {
+        display: none;
+    }
+
+    .top_left i {
+        left: 462px;
+        top: 16px;
     }
 }
