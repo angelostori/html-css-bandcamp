@@ -78,4 +78,27 @@
         left: 462px;
         top: 16px;
     }
+
+    .title,
+    .artist {
+        font-size: 10px;
+    }
+
+    .subtitle {
+        font-size: 10px;
+        color: var(--bc-secondary-lighter);
+    }
+
+    .logo_desktop {
+        display: none;
+    }
+
+    .logo_mobile {
+        display: block;
+    }
+
+    .top_left img {
+        width: 80px;
+        height: auto;
+    }
 }

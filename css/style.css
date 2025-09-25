@@ -25,6 +25,9 @@ body {
 }
 
 /*--HEADER--*/
+.logo_mobile {
+    display: none;
+}
 
 .top {
     height: 112px;
