@@ -76,7 +76,7 @@ input.search {
 
     input {
         background-color: var(--bc-secondary-light);
-        border:2px solid var(--bc-secondary-lighter);
+        border: 2px solid var(--bc-secondary-lighter);
         width: 300px;
         padding: 5px 5px 5px 30px;
         margin: 1rem;
@@ -115,7 +115,7 @@ input.search {
 .card {
     width: calc((100% / 4) - 1rem);
 
-    
+
 
     img {
         width: 100%;
@@ -130,6 +130,7 @@ input.search {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 14px;
 }
 
 aside {
@@ -143,8 +144,9 @@ aside {
     }
 }
 
-.left_grid .genre {
+.subtitle {
     color: var(--bc-secondary-light);
+    font-size: 12px;
 }
 
 .right_bar {
@@ -157,14 +159,14 @@ aside {
 }
 
 .info {
-    width: 75%;
+    width: 70%;
 }
 
 div.play_bar {
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-    }
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 
 .icon_wrapper {
     height: 3rem;
@@ -194,6 +196,7 @@ div.play_bar {
 }
 
 .dark_btn {
+    display: flex;
     border: 1px solid;
     justify-content: center;
     border-radius: 5px;
@@ -214,4 +217,23 @@ div.play_bar {
     display: flex;
     flex-direction: column;
     /*è brutto da vedere questo d-flex ma lo faccio per il gap*/
+}
+
+.artist_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .subtitle {
+        color:var(--bc-lighter);
+    }
+}
+
+.cirle {
+    width: 25%;
+
+    img {
+        border-radius: 50%;
+        margin: 0;
+    }
 }
